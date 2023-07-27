@@ -9,7 +9,7 @@ El presente texto proporciona una visión general de un proyecto centrado en la 
 <hr>
 
 # Obtención de Comentarios de Redes Sociales
-[Archivos de jupyter explicativos](https://github.com/aleo-phd/MOD-Samsung/tree/main/GetDataFromSM)
+[Archivos de jupyter explicativos](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/GetDataFromSM)
 <br>
 [Datos extraidos](https://github.com/aleo-phd/MOD-Samsung/tree/main/Data)
 
