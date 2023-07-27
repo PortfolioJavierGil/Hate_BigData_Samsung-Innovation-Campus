@@ -10,6 +10,11 @@ header {
     background-color: black;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .titulo {
     display: grid;
     grid-template-columns: 20% 80%;
