@@ -11,32 +11,32 @@ El presente texto proporciona una visión general de un proyecto centrado en la 
 # Obtención de Comentarios de Redes Sociales
 [Archivos de jupyter explicativos](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/GetDataFromSM)
 <br>
-[Datos extraidos](https://github.com/aleo-phd/MOD-Samsung/tree/main/Data)
+[Datos extraidos](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/Data)
 
 Para llevar a cabo el objetivo de obtener comentarios de las redes sociales YouTube, TikTok, Reddit e Instagram, para videos de un canal específico como para publicaciones generales. Se ha utilizado el siguiente enfoque según la plataforma:
 
-1. [**YouTube**](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/YouTubeAPI.ipynb): Se utiliza la API de YouTube para acceder a los comentarios de los videos de un canal específico. Se pasa el link del canal como argumento y se obtienen todas las estadísticas del canal y de sus videos, incluyendo los comentarios.
+1. [**YouTube**](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/GetDataFromSM/YouTubeAPI.ipynb): Se utiliza la API de YouTube para acceder a los comentarios de los videos de un canal específico. Se pasa el link del canal como argumento y se obtienen todas las estadísticas del canal y de sus videos, incluyendo los comentarios.
 
-2. [**YouTube** **live**](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/YouTubeLiveAPI.ipynb): Se utiliza la API de YouTube para acceder al chat de un video en directo. Se pasa el link del directo como argumento y se obtienen todosclos comentarios del chat.
+2. [**YouTube** **live**](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/GetDataFromSM/YouTubeLiveAPI.ipynb): Se utiliza la API de YouTube para acceder al chat de un video en directo. Se pasa el link del directo como argumento y se obtienen todosclos comentarios del chat.
 
-3. [**TikTok**](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/tiktokScrapping.ipynb): Se utiliza la técnica de web scraping para obtener los comentarios de las publicaciones de TikTok. Esto implica utilizar bibliotecas como BeautifulSoup o Selenium para extraer los comentarios directamente del HTML de la página.
+3. [**TikTok**](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/GetDataFromSM/tiktokScrapping.ipynb): Se utiliza la técnica de web scraping para obtener los comentarios de las publicaciones de TikTok. Esto implica utilizar bibliotecas como BeautifulSoup o Selenium para extraer los comentarios directamente del HTML de la página.
 
-4. [**Reddit**](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/RedditAPI.ipynb): Se utiliza la API de Reddit para acceder a los comentarios de las comunidades y los posts. Permite especificar la comunidad o el post en particular del que deseas obtener comentarios y utilizar la API para obtener los datos correspondientes.
+4. [**Reddit**](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/GetDataFromSM/RedditAPI.ipynb): Se utiliza la API de Reddit para acceder a los comentarios de las comunidades y los posts. Permite especificar la comunidad o el post en particular del que deseas obtener comentarios y utilizar la API para obtener los datos correspondientes.
 
-5. [**Instagram**](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/InstagramScrapping.ipynb): Al igual que en el caso de TikTok, se utiliza web scraping para obtener los comentarios de las publicaciones de Instagram. Se utilizan bibliotecas como BeautifulSoup o Selenium para extraer los comentarios del HTML de la página.
+5. [**Instagram**](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/GetDataFromSM/InstagramScrapping.ipynb): Al igual que en el caso de TikTok, se utiliza web scraping para obtener los comentarios de las publicaciones de Instagram. Se utilizan bibliotecas como BeautifulSoup o Selenium para extraer los comentarios del HTML de la página.
 
-6. [**4chan**](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/4chanAPI.ipynb): Se utiliza la función 'get_all_threads()' que realiza una solicitud HTTP a la URL "https://a.4cdn.org/tablero/catalog.json" para obtener un archivo JSON que contiene información sobre hilos de discusión en el tablero de 4chan.
+6. [**4chan**](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/GetDataFromSM/4chanAPI.ipynb): Se utiliza la función 'get_all_threads()' que realiza una solicitud HTTP a la URL "https://a.4cdn.org/tablero/catalog.json" para obtener un archivo JSON que contiene información sobre hilos de discusión en el tablero de 4chan.
 
 <hr>
 
 # Procesamiento de los datos con Spark
-[Archivo de jupyter explicativo](https://github.com/aleo-phd/MOD-Samsung/blob/main/Data_Process/train_data_process.ipynb)
+[Archivo de jupyter explicativo](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/Data_Process/train_data_process.ipynb)
 Los datos se procesan utilizando Spark y se unifican en un solo dataframe para poder facilitar el entrenamiento
 
 <hr>
 
 # Modelo de IA para detectar el hate
-[Archivos de jupyter explicativos](https://github.com/aleo-phd/MOD-Samsung/tree/main/Model)
+[Archivos de jupyter explicativos](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/Model)
 
 Se han desarrollado dos modelos, uno en pyspark y otro en python.
 
@@ -45,7 +45,7 @@ Se han desarrollado dos modelos, uno en pyspark y otro en python.
 ## Analisis de los datos de entrenamiento
 Antes de elaborar el modelo se lleva a cabo el analisis de los datos de entrenamiento.
 
-[Archivo de jupyter explicativo](https://github.com/aleo-phd/MOD-Samsung/blob/main/Analysis/train_data_analysis.ipynb)
+[Archivo de jupyter explicativo](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/Analysis/train_data_analysis.ipynb)
 
 * Se calculan algunas características de texto, como la cuenta de palabras, la cuenta de palabras únicas, la cuenta de stop words, la longitud promedio de las palabras, la cuenta de caracteres y la cuenta de puntuación. Estas características se utilizan para el análisis de los datos para ver si pueden ser relevantes en la detección de hate speech.
 * Se visualizan los datos del balanceo de los datos de train.
@@ -57,7 +57,7 @@ Antes de elaborar el modelo se lleva a cabo el analisis de los datos de entrenam
 ## Pyspark
 Análogamente se ha desarrollado un modelo en pyspark para la implementación de una situación real en el campo de BigData.
 
-[Este código](https://github.com/aleo-phd/MOD-Samsung/tree/main/Model/pyspark/pysparkML.ipynb) demuestra el proceso de construcción de un modelo de clasificación de texto utilizando Spark. Realiza los siguientes pasos:
+[Este código](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/Model/pyspark/pysparkML.ipynb) demuestra el proceso de construcción de un modelo de clasificación de texto utilizando Spark. Realiza los siguientes pasos:
 
 * Importa los datos y realiza una limpieza del texto de los tweets.
 * Divide los datos en conjuntos de entrenamiento y prueba.
@@ -72,7 +72,7 @@ Análogamente se ha desarrollado un modelo en pyspark para la implementación de
 ## Python
 El modelo en python se ha llevado a cabo para aumentar el rendimiento frente al modelo de pyspark.
 
-[Este código](https://github.com/aleo-phd/MOD-Samsung/blob/main/Model/modeloPyhton.ipynb) realiza las siguientes tareas:
+[Este código](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/Model/modeloPyhton.ipynb) realiza las siguientes tareas:
 
 * Importa los datos.
 * Realiza la limpieza de texto en los datos, incluyendo la eliminación de caracteres especiales y la normalización del texto.
@@ -97,9 +97,9 @@ Cabe destacar la arquitectura de la red neuronal empleada en el modelo usado par
 <hr>
 
 # (Predicción) Detector Hate en redes sociales
-[Archivos de jupyter explicativos](https://github.com/aleo-phd/MOD-Samsung/tree/main/Prediction)
+[Archivos de jupyter explicativos](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/Prediction)
 
-[Este código](https://github.com/aleo-phd/MOD-Samsung/blob/main/Prediction/generate_predictions_samsung_comments.ipynb) sirve para etiquetar comentarios de las redes sociales de Samsung. Se etiquetan los comentarios recopilados anteriormente y se utiliza el modelo de inteligencia artificial para clasificarlos como comentarios de hate o comentarios no hate.
+[Este código](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/Prediction/generate_predictions_samsung_comments.ipynb) sirve para etiquetar comentarios de las redes sociales de Samsung. Se etiquetan los comentarios recopilados anteriormente y se utiliza el modelo de inteligencia artificial para clasificarlos como comentarios de hate o comentarios no hate.
 
 
 # Visualizacion en Tiempo Real con PowerBI
