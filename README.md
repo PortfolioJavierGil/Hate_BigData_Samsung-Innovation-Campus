@@ -101,8 +101,13 @@ Cabe destacar la arquitectura de la red neuronal empleada en el modelo usado par
 
 [Este código](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/blob/main/Prediction/generate_predictions_samsung_comments.ipynb) sirve para etiquetar comentarios de las redes sociales de Samsung. Se etiquetan los comentarios recopilados anteriormente y se utiliza el modelo de inteligencia artificial para clasificarlos como comentarios de hate o comentarios no hate.
 
+<hr>
 
-# Visualizacion en Tiempo Real con PowerBI
+# Visualizacion en PowerBI
+
+En este [link](https://app.powerbi.com/view?r=eyJrIjoiNDM5M2I5OWItZTUyNC00NzYzLTljNjAtZGYwMDQ0MTkzNzU2IiwidCI6IjZhZmVhODVkLWMzMjMtNDI3MC1iNjlkLWE0ZmIzOTI3YzI1NCIsImMiOjl9) se incluye la visualización de los datos extraidos y etiquetados usando el modelo explicado anteriormente.
+
+## Visualizacion en Tiempo Real
 [Archivo de jupyter expliactivo](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/powerBIPanel.ipynb)
 
 En este codigo se envian en tiempo real los datos extraidos del chat de youtube para su representación en directo en powerBI.
