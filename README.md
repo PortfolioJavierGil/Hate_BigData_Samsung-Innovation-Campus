@@ -105,4 +105,10 @@ Cabe destacar la arquitectura de la red neuronal empleada en el modelo usado par
 # Visualizacion en Tiempo Real con PowerBI
 [Archivo de jupyter expliactivo](https://github.com/aleo-phd/MOD-Samsung/blob/main/GetDataFromSM/powerBIPanel.ipynb)
 
-En este codigo se envian en tiempo real los datos extraidos del chat de youtube para su representación en directo en powerBI
+En este codigo se envian en tiempo real los datos extraidos del chat de youtube para su representación en directo en powerBI.
+Esta representación se implementa en una [web]([https://github.com/aleo-phd/MOD-Samsung/tree/main/web](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/tree/main/web)) para poder seguir el directo a la vez que se monitoriza la cantidad de hate de este.
+
+Este es el diseño que tiene esta página web.
+
+![Diseño Web](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/assets/91088022/8f99f9cd-b2bb-4835-bd13-266e2dd075cb)
+
