@@ -119,8 +119,8 @@ Este es el diseño que tiene esta página web.
 
 
 # Proyecto Realizado por:
-* ## Alejandro Leo Ramírez
-* ## Victor Tavara Pérez
-* ## Javier Garrido Sola
-* ## Javier Gil Rodríguez
+* Alejandro Leo Ramírez
+* Victor Tavara Pérez
+* Javier Garrido Sola
+* Javier Gil Rodríguez
 
