@@ -117,3 +117,10 @@ Este es el diseño que tiene esta página web.
 
 ![Diseño Web](https://github.com/PortfolioJavierGil/Hate_BigData_Samsung-Innovation-Campus/assets/91088022/8f99f9cd-b2bb-4835-bd13-266e2dd075cb)
 
+
+# Proyecto Realizado por:
+* ## Alejandro Leo Ramírez
+* ## Victor Tavara Pérez
+* ## Javier Garrido Sola
+* ## Javier Gil Rodríguez
+
