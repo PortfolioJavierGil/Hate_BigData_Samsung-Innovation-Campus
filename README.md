@@ -86,7 +86,7 @@ El modelo en python se ha llevado a cabo para aumentar el rendimiento frente al 
 ### Red Neuronal (LSTM)
 Cabe destacar la arquitectura de la red neuronal empleada en el modelo usado para la predicción
 
-* **Capa de Embedding (Incrustación)**: Esta capa convierte las palabras de entrada en vectores densos de longitud fija. En este caso, se utilizan vectores de longitud 100 para representar las palabras. La capa tiene 5,000,000 de parámetros (pesos) para aprender a generar los vectores de palabras adecuados.
+* **Capa de Embedding (Incrustación)**: Esta capa convierte las palabras de entrada en vectores densos de longitud fija. En este caso, se utilizan vectores de longitud 100 para representar las palabras.
 * **Capa de Dropout Espacial**: Esta capa aplica el dropout para prevenir el sobreajuste en los datos. El dropout elimina aleatoriamente conexiones entre neuronas durante el entrenamiento para evitar que la red dependa demasiado de ciertas características.
 * **Capa LSTM**: Esta capa utiliza unidades LSTM (Long Short-Term Memory) para modelar la secuencia de palabras en el texto. Las unidades LSTM tienen 100 celdas de memoria y pueden capturar patrones a largo plazo en datos secuenciales.
 * **Capa Densa**: Esta es la capa de salida de la red, consiste en una sola neurona con una función de activación sigmoide. Genera una salida entre 0 y 1, que representa la probabilidad de que la instancia de texto pertenezca a una clase específica.
