@@ -1,3 +1,5 @@
+[Articulo de Samsung Ganadores del Proyecto](https://news.samsung.com/es/samsung-anuncia-los-ganadores-al-mejor-capstone-project-del-curso-de-inteligencia-artificial-de-la-universitat-politecnica-de-valencia-y-del-curso-de-big-data-de-la-universidad-polit)
+
 El presente texto proporciona una visión general de un proyecto centrado en la obtención de comentarios de redes sociales y el desarrollo de un modelo de inteligencia artificial para **detectar el discurso de odio**. A lo largo de esta introducción, exploraremos los enfoques utilizados para obtener comentarios de plataformas como YouTube, YouTube Live, TikTok, Reddit e Instagram, así como los modelos desarrollados para clasificar los comentarios como comentarios de odio o comentarios no ofensivos.
 
 * En primer lugar, se describe el enfoque adoptado para obtener los datos de cada plataforma.
