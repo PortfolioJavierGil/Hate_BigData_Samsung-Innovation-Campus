@@ -122,7 +122,7 @@ Este es el diseño que tiene esta página web.
 
 # Proyecto Realizado por:
 * [Alejandro Leo Ramírez](https://www.linkedin.com/in/alejandro-leo/)
-* Victor Tavara Pérez
+* [Victor Tavara Pérez](https://www.linkedin.com/in/víctor-távara-pérez-4715b91a5/)
 * [Javier Garrido Sola](https://www.linkedin.com/in/javier-g-6a986a121/)
 * [Javier Gil Rodríguez](https://www.linkedin.com/in/javier-gil-rodriguez-a515b4254/)
 
